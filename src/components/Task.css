@@ -7,3 +7,7 @@
     border-radius: 1em;
     color: white;
 }
+
+.task-title {
+    cursor: pointer;
+}
