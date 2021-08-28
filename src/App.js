@@ -6,7 +6,7 @@ import './App.css';
 import AddTask from './components/AddTask';
 
 const App = () => {
-  const [tasks, setTasks] = useState([{}]);
+  const [tasks, setTasks] = useState([]);
 
   const handleTaskClick = (taskId) => {
     const newTasks = tasks.map((task) => {
