@@ -7,11 +7,11 @@
 .add-task-input {
     height: 40px;
     padding: 0 10px;
-    border-radius: 1em;
-    border: none;
+    border-radius: 2px;
+    border: 0.5px solid black;
     flex: 2;
-    background-color: gray;
-    color: white;
+    background-color: #fdfdfd;
+    color: black;
     font-size: 1em;
 }
 

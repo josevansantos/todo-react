@@ -1,11 +1,12 @@
 .task-container {
-    background-color: gray;
+    background-color: #fff;
     margin: 8px 0;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
-    border-radius: 1em;
-    color: white;
+    border-radius: 2px;
+    color: black;
+    border-bottom: 0.8px solid black;
 }
 
 .task-title {

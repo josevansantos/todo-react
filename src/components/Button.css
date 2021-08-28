@@ -1,12 +1,12 @@
 .button {
-    background-color: aquamarine;
+    background-color: #5ea3ec;
     height: 40px;
     padding: 0 10px;
-    border-radius: 1em;
+    border-radius: 2px;
     width: 100%;
     font-size: 1em;
-    color: gray;
+    color: white;
     font-weight: bold;
     cursor: pointer;
-    border: none;
+    border: 0.5px solid black;
 }
