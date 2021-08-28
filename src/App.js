@@ -1,22 +1,12 @@
 import react, { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 
 import Tasks from './components/Tasks';
 import './App.css';
 import AddTask from './components/AddTask';
 
 const App = () => {
-  const [tasks, setTasks] = useState([
-    {
-      id: '1',
-      title: 'Estudar',
-      completed: false,
-    },
-    {
-      id: '2',
-      title: 'Ler',
-      completed: true,
-    },
-  ]);
+  const [tasks, setTasks] = useState([{}]);
 
   const handleTaskClick = (taskId) => {
     const newTasks = tasks.map((task) => {
@@ -31,7 +21,7 @@ const App = () => {
       ...tasks,
       {
         title: taskTitle,
-        id: Math.random(10),
+        id: uuidv4(),
         completed: false,
       },
     ];
